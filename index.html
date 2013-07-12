@@ -1,16 +1,80 @@
-<!DOCTYPE html>
+<!DOCTYPE htnl>
 <html>
-  <head>
-    <title>Me</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link href="css/custom.css" rel="stylesheet" media="screen">
-  </head>
-  <body>
-    <div class="container">
-      <h1>Hi! My name is Shimi.</h1>
-    </div>
-    <script src="http://code.jquery.com/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-  </body>
+	<head>
+		<title>Shimi Kahlon</title>
+		<link rel="stylesheet" type="text/css" href="includes/style.css">
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src="includes/jquery-1.10.1.min.js"></script>
+		<script type="text/javascript" src="includes/jquery.easing-min.js"></script>
+		<script type="text/javascript" src="includes/functions.js"></script>
+		<script type="text/javascript" src="includes/jquery.scrollpath-min.js"></script>
+	</head>
+	<body>
+		<div id="wrapper">
+			<nav>
+				<a href="#about">ABOUT ME</a>
+				<a href="#projects">PROJECTS</a>
+				<a href="#contact">CONTACT</a>
+			</nav>
+
+			<section id="about">
+				<article>
+					<img src="images/me.jpg">
+					<h1>Who am I?</h1>
+					<p>I'm 30 years old. I'm a Software Engineering senior at Shenkar Collage of Engineering and Design.<br>
+						My speciality is to develop web applications to Desktop, Tablet and Mobile.<br>
+						I'm also develop applications using Java, .NET and C++.<br>
+						In my free time I'm usually go to the sea. The smell, the wind and the birds makes me relax..<br>
+						I love to travel a lot, visit many places and discover new cultures.<br><br>
+						You can find me at:<br>
+						<a href="https://www.facebook.com/shimi.kahlon"><img src="images/Facebook-logo.png" alt="facebook" title="facebook"></a>
+						<a href="https://github.com/ShimiKahlon"><img src="images/github-logo.png" alt="github" title="github"></a>
+					</p>
+				</article>
+			</section>
+			
+			<section id="projects">
+				<article>
+					<h2>Some of my works..</h2>
+					<ul>
+						<li><a href="http://shimikahlon.github.io/sidarwebsite/"><img src="images/sidar.png"><br>Sidar Website</a></li>
+						<li><a href="http://shimikahlon.github.io/winevolution/"><img src="images/winevolution.png"><br>Windowing System Evolution</a></li>
+						<li><a href="http://shimikahlon.github.io/flylight/"><img src="images/flylight.png"><br>Flylight</a></li>
+					</ul>
+				</article>
+			</section>
+			
+			<section id="contact">
+				<article>
+					
+					<form action="#" method="get" autocomplete>
+						<h2>Contact me...</h2>
+						<br>
+						<p>
+							<label>First Name: 
+								<input name="firstname" type="text"> 
+							</label>	
+						</p>
+						<p>
+							<label>Last Name: 
+								<input name="lastmane" type="text">
+							</label>
+						</p>
+						<p>
+							<label>E-Mail: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+								<input type="email">
+							</label>
+						</p>
+						<p>
+							<label><p class="massage">Write a message:&nbsp;</p>
+								<textarea name="msg" rows="5" cols="27"></textarea>
+							</label>
+						</p>
+						<input type="submit" value="Send">
+					</form>	
+				</article>
+			</section>
+			<div class="clear"></div>
+		</div>
+	</body>
 </html>
