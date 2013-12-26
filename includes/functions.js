@@ -19,9 +19,9 @@ function init() {
 		$(this).click(function(e) {
 			e.preventDefault();
 
-			$.fn.scrollPath("scrollTo", target, 3000, "easeInOutSine");
+			$.fn.scrollPath("scrollTo", target, 1500, "easeInOutSine");
 			
-			$("nav").fadeOut(3000, function() {
+			$("nav").fadeOut(1500, function() {
 				$("nav").fadeIn('slow');
 			});
 		});
