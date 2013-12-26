@@ -21,7 +21,7 @@ function init() {
 
 			$.fn.scrollPath("scrollTo", target, 1000, "easeInOutSine");
 			
-			$("nav").fadeOut(1000, function() {
+			$("nav").fadeOut(2000, function() {
 				$("nav").fadeIn('slow');
 			});
 		});
